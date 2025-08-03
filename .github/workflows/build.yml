@@ -211,7 +211,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.commit_info.outputs.short_hash }}
-          name: "FongMi TV APK Release ${{ steps.commit_info.outputs.short_hash }}"
+          name: "YD TV APK Release ${{ steps.commit_info.outputs.short_hash }}"
           body: |
             📱 **Build Information:**
             - **Commit Hash:** [`${{ steps.commit_info.outputs.short_hash }}`](https://github.com/${{ env.SOURCE_REPO }}/commit/${{ steps.commit_info.outputs.full_hash }})
